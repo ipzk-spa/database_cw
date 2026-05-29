@@ -1,0 +1,47 @@
+.homePage {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+.homeBlock {
+  width: 80%;
+}
+.alcoholBlock {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: auto;
+  gap: 10px;
+  padding: 10px;
+}
+.table-cell {
+  position: relative;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.blockImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+#alcoholTitle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.collapseText{
+    font-size: 1.2rem;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
